@@ -1,8 +1,8 @@
 package = "etcd"
 version = "0.1.0-1"
 source = {
-  url = "git://github.com/anibali/etcd.lua",
-  tag = "v0.1.0"
+  url = "https://github.com/anibali/etcd.lua/archive/v0.1.0.tar.gz",
+  dir = "etcd.lua-0.1.0"
 }
 description = {
   summary = "Lua etcd client",
