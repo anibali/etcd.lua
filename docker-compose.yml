@@ -1,0 +1,10 @@
+lua-etcd:
+  build: .
+  environment:
+    - ETCD_ADDR=http://etcd:2379
+  links:
+    - etcd
+etcd:
+  image: anibali/etcd:2.2
+  ports:
+    - "2379:2379"
