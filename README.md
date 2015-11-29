@@ -1,4 +1,4 @@
-# lua-etcd
+# etcd.lua
 
 ## Usage
 
