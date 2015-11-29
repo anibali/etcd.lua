@@ -8,8 +8,8 @@ RUN apk add --update gcc lua5.2-dev musl-dev git \
     && apk del gcc lua5.2-dev musl-dev git \
     && rm -rf /var/cache/apk/*
 
-# Copy our scripts into the image
-COPY *.lua /app/
+# Copy our files into the image
+COPY . /app
 
 WORKDIR /app
 

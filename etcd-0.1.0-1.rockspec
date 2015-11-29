@@ -15,7 +15,7 @@ description = {
 }
 dependencies = {
   "lua >= 5.1",
-  "LuaSocket >= 2.0",
+  "luasocket >= 2.0",
   "lua-cjson >= 2.1.0"
 }
 build = {
